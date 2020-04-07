@@ -1,11 +1,11 @@
-DEPTHY
-======
+3D Depth Map Creator
+====================
 
 Images with depthmap playground.
 
-Depthy shows Google Camera Lens Blur photos with 3D parallax effect and creates animated GIFs from them. Plus extracts the depth map and enables you to create your own!
+3D Depth Map Creator shows Google Camera Lens Blur photos with 3D parallax effect and creates animated GIFs from them. Plus extracts the depth map and enables you to create your own!
 
-This is the source of the http://depthy.me/ webapp. Contributions more than welcome!
+Contributions more than welcome!
 
 ## How to build
 
@@ -16,19 +16,14 @@ This is the source of the http://depthy.me/ webapp. Contributions more than welc
 - For deployment: `grunt build`
 
 ## Docker image
-If you want to simply run depthy locally, you can use [Docker.io](https://www.docker.com/).
+If you want to simply run locally, you can use [Docker.io](https://www.docker.com/).
 
 Once docker installed, simple run:
 ```
-$ docker run --rm -t -i -p 9000:9000 essembeh/depthy
+$ docker run --rm -t -i -p 9000:9000 essembeh/3d-depth-map-creator
 ```
 
 Then go to [localhost:9000](http://localhost:9000)
-
-## Authors
-
-**[Rafał Lindemann](http://www.stamina.pl/)** (idea, code, ux) with much appreciated help of
-**[Łukasz Marcinkowski](http://th7.org/)** (idea, code)
 
 ## How to help
 
@@ -39,8 +34,6 @@ try to follow conventions of the code...
 ## License
 
 The MIT License
-
-Copyright (c) 2014 Rafał Lindemann. http://panrafal.github.com/depthy
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
